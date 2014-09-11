@@ -1,3 +1,7 @@
-//alert("JavaScript works!");
+/*
+Wesley Wood
+SDI 201409
+Project 2
+*/
 
-console.log("Added line of code within my branch.");
+var myName = "Wesley Wood"; //this variable contains a string referencing who I am
