@@ -24,11 +24,11 @@ var say = function(message) {console.log(message);};// simplified console
 // Procedure
 var name = function () {
     var myPrompt = prompt("Did I send" + closestUnit + "or" + fastestUnit + "?"); {
-        if (myPrompt === true) {
+        if (myPrompt === "Medic 24") {
             //output 1 if true
             console.log("You are correct, Medic 24 was sent!")
         } else {
-            if (myPrompt === false) {
+            if (myPrompt === "Medic 22") {
                 //output 2 if false
                 console.log("You are incorrect, I sent Medic 24.")
                 // other answer will return a different answer
@@ -38,6 +38,27 @@ var name = function () {
         }; // my Prompt
     }; // finish function
     
-
-
     
+// Confirm Argument
+// Boolean Function
+
+var affirmative = function(myArgument1) {
+    if (myArgument1 === true) {
+        say("The medic unit is 5 miles away.")
+        return myArgument1;
+        } else {
+            if (myArgument1 === false) {
+                //while-loop
+                var milesTraveled = 6
+                while (milesTraveled > 0) {
+                say("It seems like it takes forever driving" + milesTraveled + "this many miles more to a job.")
+                milesTraveled--;
+                }; //while
+                    say("We're almost there.")
+                    return milesTraveled;
+            }; //if milesTraveled = false
+        }; //else
+}; //End of confirmation function
+
+
+//Number Function
