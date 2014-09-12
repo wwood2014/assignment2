@@ -93,4 +93,18 @@ say("When a person goes into respiratory arrest, CPR needs to be started.")
 say("I had to dispatch a Medcom Supervisor to assist the Paramedics with a traumatic situation, in addition to driving" + totalDistance + "miles during this emergency")
 
 
+systemUp()
+
+var myArgument1 = confirm ("Will the next call me shorter driving distance?")
+
+
+var affirmative2 = affirmative(myArgument1) // boolean condition for affirmative function
+    if (affirmative2 === true) {
+        say("It'll be a shorter distance.")
+    } else {
+        say ("Better luck next time.")
+    };
+    
+// added a confirm
+
 }
