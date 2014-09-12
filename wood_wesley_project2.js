@@ -73,5 +73,24 @@ var totalDistance = function (dH) {
         
     return time;
 
+    }; //close number function
     
-}; //close number function
+//string function
+
+var thisHappened = function(value1, value2) {
+    
+    var cause = "driving to emergency and to hospital,";
+    var totalOutcome = (cause + value1 + "," + "and" + value2);
+//console.log(totalOutcome)
+return totalOutcome
+    // close function
+    
+    
+Main Code
+
+say("This patient went into respiratory arrest.")
+say("When a person goes into respiratory arrest, CPR needs to be started.")
+say("I had to dispatch a Medcom Supervisor to assist the Paramedics with a traumatic situation, in addition to driving" + totalDistance + "miles during this emergency")
+
+
+}
