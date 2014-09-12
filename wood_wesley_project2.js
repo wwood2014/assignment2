@@ -19,6 +19,7 @@ var dH = 15; // number variable- this variable represents miles driven to hospit
 var distance = true; // Boolean variable- this runs if the distance is true
 var speed = false; // Boolean variable- this runs if distance is false
 var say = function(message) {console.log(message);};// simplified console
+var minutesTotal = 15;
 
 // Functions
 // Prompt
@@ -106,5 +107,30 @@ var affirmative2 = affirmative(myArgument1) // boolean condition for affirmative
     };
     
 // added a confirm
+var ta = confirm ("Why does it take so long to drive?")
+    if (ta === true) {
+        var timeDriven = minutesTotal(totalDistance)
+            say(timeDriven + "minutes! Yeah we're taking a long time.")
+    } else {
+        
+        say("This is draining me.")
+        var timeDriven = minutesTotal(totalDistance)
+        say(timeDriven + "minutes! Yeah we're taking a long time.")
+    }// and else
+    
+    
+    
+thisHappened(value1, value2)
 
-}
+//added additional confirm to go with the theme
+var finish = confirm("Can you guess the outcome?")
+    if (finish === true) {
+        var string = thisHappened(value1, value2)
+        say(string)
+    } else {
+        say("Well this has been a long story.")
+        var string = thisHappened(value1, value2)
+        say(string);
+    }; //finish else
+
+};
