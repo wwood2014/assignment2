@@ -15,6 +15,7 @@ var fastestUnit = "Medic 22"; // this variable shows what unit would've had the 
 var supervisor = "Medcom Supervisor"; // this variable represents the paramedic supervisor needed to be contacted for major emergencies
 var ra = "Respiratory Arrest"; // this variable is code for where someone's airway is blocked
 var patients = "5"; // Number variable- this variable equals the number of patients in the story
+var dH = 15; // number variable- this variable represents miles driven to hospital
 var distance = true; // Boolean variable- this runs if the distance is true
 var speed = false; // Boolean variable- this runs if distance is false
 var say = function(message) {console.log(message);};// simplified console
@@ -62,3 +63,15 @@ var affirmative = function(myArgument1) {
 
 
 //Number Function
+//For-Loop
+
+var totalDistance = function (dH) {
+    var miles = 
+        for (distance = (miles + dh); distance > 0; distance--) {
+            say( distance + "transporting a patient requires a ton of driving")
+        }; //close loop
+        
+    return time;
+
+    
+}; //close number function
